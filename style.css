@@ -1,0 +1,74 @@
+.site-header {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.site-header__actions {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+}
+.site__actions {
+    position: absolute;
+    
+    
+    display: flex;
+    align-items: center;
+}
+.custom-button {
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    background-color: #235cf8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* This is the CSS from the previous answer, it is included for context */
+.site-header__logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.site-header__logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.site-header__title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+  }
+  
+  h1, h2 {
+    font-weight: normal;
+    
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    line-height: 1.2;
+    
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    line-height: 1.3;
+    
+  }
